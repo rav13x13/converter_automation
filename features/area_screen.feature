@@ -15,7 +15,7 @@ Background:
       When I click on Swap button
       Then I see "Sq Metre" in From header
       And I see "Sq Kilometre" in To header
-  @wip
+
       Scenario Outline: User is able to convert default units
         Given I click on Clear button
         When I enter "<target>" to From field
@@ -23,5 +23,12 @@ Background:
         Examples:
         |target|result|
         |1     |1000000|
-#        |2     |2000000|
- #       |3     |3000000|
+        |2     |2000000|
+        |3     |3000000|
+
+  @wip
+    Scenario: User is able to use soft keyboard to enter values
+      Given I click on Clear button
+      When I click on From fiild
+      And I press "3" on soft keyboard
+      Then I get "<3000000>" in To field
