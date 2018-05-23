@@ -30,5 +30,5 @@ Background:
     Scenario: User is able to use soft keyboard to enter values
       Given I click on Clear button
       When I click on From fiild
-      And I press "3" on soft keyboard
-      Then I get "<3000000>" in To field
+      And I press "12" on soft keyboard
+      Then I get "12000000" in To field
