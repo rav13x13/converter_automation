@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c77c6b49-6b5b-4d18-91ec-7ba90672e6d7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/area_screen.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/area_screen.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/step_definitions/area screen steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/area screen steps.rb" afterDir="false" />
     </list>
@@ -18,8 +17,8 @@
       <file leaf-file-name="area_screen.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/area_screen.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+            <state relative-caret-position="510">
+              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -45,8 +44,8 @@
       <file leaf-file-name="area screen steps.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/area screen steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="-221">
+              <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -139,12 +138,12 @@
       <workItem from="1527083899493" duration="4398000" />
       <workItem from="1527089014240" duration="11000" />
       <workItem from="1527089808004" duration="671000" />
-      <workItem from="1527167477798" duration="1286000" />
+      <workItem from="1527167477798" duration="2982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17172000" />
+    <option name="totallyTimeSpent" value="18868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
@@ -346,13 +345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/area_screen.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -367,10 +359,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/area_screen.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/area screen steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="-221">
+          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
         </state>
       </provider>
     </entry>

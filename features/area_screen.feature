@@ -26,7 +26,6 @@ Background:
         |2     |2000000|
         |3     |3000000|
 
-
     Scenario: User is able to use soft keyboard to enter values
       Given I click on Clear button
       When I click on From fiild
