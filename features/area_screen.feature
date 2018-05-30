@@ -31,8 +31,22 @@ Background:
       When I click on From fiild
       And I press "12" on soft keyboard
       Then I get "12000000" in To field
-  @wip
+
     Scenario:
-      When  I select "Hectare" from left column
-      Then I see "Hectare" in From header
-      And I get "10000" in To field
+    When  I select "Hectare" from left column
+    Then I see "Hectare" in From header
+    And I get "10000" in To field
+
+  @wip
+  Scenario:
+    When  I select "Sq Mile" from right column
+    Then I see "Sq Mile" in To header
+    And I get "0.3861" in To field
+
+    When  I select "Acre" from right column
+    Then I see "Acre" in To header
+    And I get "247.1054" in To field
+
+    When  I select "Sq Foot" from right column
+    Then I see "Sq Foot" in To header
+    And I get "10763910.4167" in To field
