@@ -1,0 +1,7 @@
+area: -t @area --format html --out report.html --format pretty
+volume: -t @volume --format html --out report.html --format pretty
+wip: -t @wip --format html --out report.html --format pretty
+
+any: -t @area -t @volume -t @wip --format html --out report.html --format pretty
+wip_area: -t @wip,@area --format html --out report.html --format pretty
+area_volume: -t @volume,@area --format html --out report.html --format pretty
