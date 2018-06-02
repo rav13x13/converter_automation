@@ -8,7 +8,7 @@ Background:
     #Given I land on Help popup
     #When I click on Got it button
     #Then I land on Area screen
-  @wip
+
     Scenario: User is able to swap values
       Given I see "Sq Kilometre" in From header
       And I see "Sq Metre" in To header
@@ -37,16 +37,12 @@ Background:
     Then I see "Hectare" in From header
     And I get "10000" in To field
 
-
-  Scenario:
-    When  I select "Sq Mile" from right column
-    Then I see "Sq Mile" in To header
-    And I get "0.3861" in To field
-
-    When  I select "Acre" from right column
-    Then I see "Acre" in To header
-    And I get "247.1054" in To field
-
-    When  I select "Sq Foot" from right column
-    Then I see "Sq Foot" in To header
-    And I get "10763910.4167" in To field
+  @wip
+  Scenario Outline: Byl ne prav, ispravil, Spasibo!
+    Given I select "<target>" from right column
+    When I get "<result>" in To field
+  Examples:
+  |target|result|
+  |Sq Mile |0.3861|
+  |Acre    |247.1054|
+  |Sq Foot |10763910.4167|
